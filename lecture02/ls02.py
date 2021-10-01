@@ -41,7 +41,8 @@ if 0 < nmbr < 100 and not 10 < nmbr < 20:
         print("eight")
     if nmbr % 10 == 9:
         print("nine")
-
+if nmbr > 99:
+    print("Enter a correct number")
 if nmbr == 11:
     print("eleven")
 elif nmbr == 12:
